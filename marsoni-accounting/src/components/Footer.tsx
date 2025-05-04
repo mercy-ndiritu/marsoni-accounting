@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1">
             <h3 className="text-xl font-bold mb-4">
-              Fiscal<span className="text-accounting-400">Flow</span>
+              Marsoni<span className="text-accounting-400">Accounting</span>
             </h3>
             <p className="text-gray-300 mb-4">
               Professional accounting services tailored to help your business grow and succeed.
@@ -64,22 +64,22 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start">
                 <MapPin size={20} className="mr-3 text-accounting-400 flex-shrink-0 mt-1" />
-                <span className="text-gray-300">123 Finance Street, Suite 300<br />New York, NY 10001</span>
+                <span className="text-gray-300">Nairobi<br /> Kenya</span>
               </div>
               <div className="flex items-center">
                 <Phone size={20} className="mr-3 text-accounting-400 flex-shrink-0" />
-                <span className="text-gray-300">(555) 123-4567</span>
+                <span className="text-gray-300">+254700000000</span>
               </div>
               <div className="flex items-center">
                 <Mail size={20} className="mr-3 text-accounting-400 flex-shrink-0" />
-                <span className="text-gray-300">info@fiscalflow.com</span>
+                <span className="text-gray-300">info@marsoniaccounting.com</span>
               </div>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400">
-          <p>© {currentYear} FiscalFlow Accounting Services. All rights reserved.</p>
+          <p>© {currentYear} Marsoni Accounting. All rights reserved.</p>
         </div>
       </div>
     </footer>

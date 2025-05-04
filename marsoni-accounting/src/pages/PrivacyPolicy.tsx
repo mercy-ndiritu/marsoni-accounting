@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-3 text-accounting-800">Introduction</h2>
               <p className="text-gray-600">
-                At FiscalFlow, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
+                At Marsoni Accounting, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
               </p>
             </section>
             
@@ -89,11 +89,11 @@ const PrivacyPolicy = () => {
                 If you have questions or concerns about this Privacy Policy, please contact us at:
               </p>
               <div className="mt-3">
-                <p className="text-accounting-800 font-medium">FiscalFlow, Inc.</p>
-                <p className="text-gray-600">123 Finance Street, Suite 300</p>
-                <p className="text-gray-600">New York, NY 10001</p>
-                <p className="text-gray-600">Email: privacy@fiscalflow.com</p>
-                <p className="text-gray-600">Phone: (555) 123-4567</p>
+                <p className="text-accounting-800 font-medium">Marsoni Accounting.</p>
+                <p className="text-gray-600">Nairobi</p>
+                <p className="text-gray-600">Kenya</p>
+                <p className="text-gray-600">Email: privacy@marsoniaccounting.com</p>
+                <p className="text-gray-600">Phone: +254700000000</p>
               </div>
             </section>
             

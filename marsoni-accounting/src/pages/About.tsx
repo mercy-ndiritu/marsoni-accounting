@@ -131,7 +131,7 @@ const About = () => {
           </div>
         </div>
         
-        {/* Leadership Team */}
+        {/* Leadership Team 
         <AnimateOnScroll variant="bounceIn" threshold={0.2}>
           <div className="container-section">
             <div className="text-center mb-12">
@@ -158,7 +158,7 @@ const About = () => {
               ))}
             </div>
           </div>
-        </AnimateOnScroll>
+        </AnimateOnScroll>*/}
         
         {/* Stats Section with CountUp */}
         <AnimateOnScroll variant="bounceIn" threshold={0.2}>
@@ -210,7 +210,7 @@ const About = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4 text-accounting-dark">Our Credentials</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                FiscalFlow maintains the highest professional standards. Our team includes professionals certified by leading financial institutions.
+                Marsoni Accounting maintains the highest professional standards. Our team includes professionals certified by leading financial institutions.
               </p>
             </div>
             
