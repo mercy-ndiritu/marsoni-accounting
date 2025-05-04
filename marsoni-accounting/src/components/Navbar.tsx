@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
             <span className="text-2xl font-bold text-accounting-800">
-              Fiscal<span className="text-accounting-500">Flow</span>
+              Marsoni<span className="text-accounting-500">Accounting</span>
             </span>
           </Link>
           

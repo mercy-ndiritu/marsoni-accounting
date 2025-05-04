@@ -40,7 +40,7 @@ const HeroSection = () => {
             <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-accounting-500 rounded-full opacity-10"></div>
             
             <div className="relative z-10 bg-white rounded-xl shadow-xl p-8 border border-gray-100">
-              <h3 className="text-accounting-700 font-bold text-xl mb-4">Why Businesses Choose Us</h3>
+              <h3 className="text-accounting-700 font-bold text-xl mb-4">Why Choose Us</h3>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <div className="bg-accounting-100 rounded-full p-1 mr-3 mt-1">
