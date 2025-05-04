@@ -114,11 +114,11 @@ const ContactSection = () => {
                     className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-accounting-500 focus:border-accounting-500"
                   >
                     <option value="">Select a subject</option>
-                    <option value="Tax Services">Tax Services</option>
                     <option value="Bookkeeping">Bookkeeping</option>
+                    <option value="Records Reconciliation">Records Reconciliation</option>
                     <option value="Financial Advisory">Financial Advisory</option>
-                    <option value="Audit Services">Audit Services</option>
-                    <option value="Business Consulting">Business Consulting</option>
+                    <option value="Business Software Solutions">Business Software Solutions</option>
+                    <option value="Stock Reconciliation">Stock Reconciliation</option>
                     <option value="Other">Other</option>
                   </select>
                 </div>
@@ -178,9 +178,9 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-accounting-800 mb-1">Our Office</h4>
                     <address className="not-italic text-gray-600">
-                      123 Finance Street, Suite 300<br />
-                      New York, NY 10001<br />
-                      United States
+                      Nairobi<br />
+                      Kenya<br />
+                      Also Mobile
                     </address>
                   </div>
                 </div>
@@ -189,7 +189,7 @@ const ContactSection = () => {
                   <Phone size={24} className="text-accounting-600 mr-4" />
                   <div>
                     <h4 className="font-semibold text-accounting-800 mb-1">Phone</h4>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">+254700000000</p>
                   </div>
                 </div>
                 
@@ -197,7 +197,7 @@ const ContactSection = () => {
                   <Mail size={24} className="text-accounting-600 mr-4" />
                   <div>
                     <h4 className="font-semibold text-accounting-800 mb-1">Email</h4>
-                    <p className="text-gray-600">info@fiscalflow.com</p>
+                    <p className="text-gray-600">info@marsoniaccounting.com</p>
                   </div>
                 </div>
               </div>

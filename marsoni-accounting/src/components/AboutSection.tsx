@@ -9,9 +9,9 @@ const AboutSection = () => {
       <div className="container-section">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="section-title">About FiscalFlow</h2>
+            <h2 className="section-title">About Marsoni Accounting</h2>
             <p className="text-lg text-gray-600 mb-6">
-              With over 15 years of experience, FiscalFlow offers expert accounting and financial services to businesses of all sizes. We combine industry expertise with a personal approach to help our clients achieve financial clarity and business growth.
+              With over 8 years of experience, Marsoni accounting offers expert accounting and financial services to businesses of all sizes. We combine industry expertise with a personal approach to help our clients achieve financial clarity and business growth.
             </p>
             
             <div className="space-y-4">
@@ -64,11 +64,11 @@ const AboutSection = () => {
             <div className="relative grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <div className="bg-white rounded-lg shadow-md p-6 transform translate-y-6">
-                  <h4 className="text-accounting-800 font-bold text-4xl">15+</h4>
+                  <h4 className="text-accounting-800 font-bold text-4xl">8+</h4>
                   <p className="text-gray-600">Years Experience</p>
                 </div>
                 <div className="bg-accounting-600 rounded-lg shadow-md p-6 text-white">
-                  <h4 className="font-bold text-4xl">500+</h4>
+                  <h4 className="font-bold text-4xl">100+</h4>
                   <p>Satisfied Clients</p>
                 </div>
               </div>

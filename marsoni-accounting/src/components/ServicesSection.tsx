@@ -6,19 +6,19 @@ import { Link } from 'react-router-dom';
 const ServicesSection = () => {
   const services = [
     {
-      id: 'tax-planning',
-      icon: <Calculator size={32} className="text-accounting-600" />,
-      title: 'Tax Planning & Preparation',
-      description: 'Strategic tax planning and accurate preparation for businesses and individuals to minimize tax burden while ensuring full compliance.',
-      features: ['Tax Strategy Development', 'Business & Individual Returns', 'IRS Representation', 'Tax Credits Identification']
-    },
-    {
       id: 'bookkeeping',
       icon: <FileText size={32} className="text-accounting-600" />,
       title: 'Bookkeeping Services',
       description: 'Comprehensive bookkeeping solutions that keep your financial records accurate, up-to-date, and compliant with regulations.',
       features: ['Daily Transaction Recording', 'Financial Statement Preparation', 'Accounts Receivable/Payable', 'Payroll Processing']
     },
+    {
+      id: 'records-reconciliation',
+      icon: <FileText size={32} className="text-accounting-600" />,
+      title: 'Records Reconciliation',
+      description: 'Accurate and timely reconciliation of financial records to ensure consistency between your internal data and external statements.',
+      features: ['Bank Reconciliation', 'Credit Card Reconciliation', 'Ledger Balancing', 'Discrepancy Identification & Resolution']
+    },  
     {
       id: 'financial-advisory',
       icon: <TrendingUp size={32} className="text-accounting-600" />,
@@ -27,19 +27,31 @@ const ServicesSection = () => {
       features: ['Cash Flow Management', 'Budget Development', 'Financial Forecasting', 'Investment Analysis']
     },
     {
-      id: 'audit',
-      icon: <CheckCircle size={32} className="text-accounting-600" />,
-      title: 'Audit & Assurance',
-      description: 'Independent audit services that provide assurance on your financial statements and internal control systems.',
-      features: ['Financial Statement Audits', 'Internal Control Reviews', 'Compliance Audits', 'Due Diligence']
+      id: 'business-software-solutions',
+      icon: <FileText size={32} className="text-accounting-600" />,
+      title: 'Business Software Solutions',
+      description: 'Custom software solutions designed to streamline your business operations, improve productivity, and support growth through digital innovation.',
+      features: [
+        'Custom Accounting Software',
+        'Inventory & POS Systems',
+        'CRM & ERP Integration',
+        'Automation & Reporting Tools'
+      ]
     },
     {
-      id: 'business',
-      icon: <Landmark size={32} className="text-accounting-600" />,
-      title: 'Business Consulting',
-      description: 'Strategic business consulting to optimize operations, improve profitability, and facilitate sustainable growth.',
-      features: ['Business Structure Optimization', 'Process Improvement', 'Growth Strategy Development', 'Merger & Acquisition Advisory']
+      id: 'stock-reconciliation',
+      icon: <FileText size={32} className="text-accounting-600" />,
+      title: 'Stock Reconciliation',
+      description: 'Ensure accurate inventory records by reconciling stock levels with physical counts to identify discrepancies and maintain inventory integrity.',
+      features: [
+        'Inventory Count Verification',
+        'Discrepancy Analysis',
+        'Stock Adjustment Reports',
+        'Inventory Audit Support'
+      ]
     }
+    
+    
   ];
 
   return (
