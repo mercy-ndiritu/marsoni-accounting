@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ServicesSection from '../components/ServicesSection';
 import CTASection from '../components/CTASection';
-import { CheckCircle, FileText, Calculator, TrendingUp, Landmark, Users } from 'lucide-react';
+import { CheckCircle, FileText, Calculator, TrendingUp, Landmark, Users, FolderCode } from 'lucide-react';
 
 const Services = () => {
   const detailedServices = [
@@ -117,73 +117,70 @@ const Services = () => {
       )
     },
     {
-      id: "audit",
-      icon: <CheckCircle size={36} className="text-accounting-600" />,
-      title: "Audit & Assurance",
-      description: "Independent audit services that provide assurance on your financial statements and internal control systems.",
+      id: "business-software-solutions",
+      icon: <FolderCode size={36} className="text-accounting-600" />,
+      title: "Business Software Solutions",
+      description: "Custom software solutions designed to streamline your business operations, improve productivity, and support growth through digital innovation.",
       content: (
         <>
           <p className="text-gray-600 mb-6">
-            Our audit and assurance services help build trust with stakeholders by verifying that financial statements are accurate and internal controls are effective. We conduct thorough, independent examinations designed to identify issues and improve processes.
+          We deliver innovative digital tools to streamline operations and drive growth.
           </p>
           <h4 className="text-xl font-semibold mb-3 text-accounting-800">What We Offer:</h4>
           <ul className="space-y-3 mb-6">
             <li className="flex">
               <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Financial Statement Audits:</span> Comprehensive examination of financial records and statements.</span>
+              <span className="text-gray-600"><span className="font-medium">Custom Software Development:</span> Tailored apps to meet your business.</span>
             </li>
             <li className="flex">
               <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Internal Control Reviews:</span> Assessment of financial control systems and procedures.</span>
+              <span className="text-gray-600"><span className="font-medium">Custom Accounting Software:</span> Manage finances with tools tailored to your business.</span>
             </li>
             <li className="flex">
               <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Compliance Audits:</span> Verification that operations adhere to applicable laws and regulations.</span>
+              <span className="text-gray-600"><span className="font-medium">Inventory & POS Systems:</span> Track stock and sales in real time.</span>
             </li>
             <li className="flex">
               <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Due Diligence:</span> Financial investigation in support of transactions and partnerships.</span>
+              <span className="text-gray-600"><span className="font-medium">CRM & ERP Integration:</span> Connect customer and resource management systems.</span>
             </li>
             <li className="flex">
               <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Fraud Investigation:</span> Detection and prevention of financial irregularities.</span>
+              <span className="text-gray-600"><span className="font-medium">Automation & Reporting Tools:</span> Save time and get instant business insights.</span>
             </li>
           </ul>
         </>
       )
     },
     {
-      id: "business",
-      icon: <Landmark size={36} className="text-accounting-600" />,
-      title: "Business Consulting",
-      description: "Strategic business consulting to optimize operations, improve profitability, and facilitate sustainable growth.",
+      id: "stock-reconciliation",
+      icon: <Calculator size={36} className="text-accounting-600" />,
+      title: "Stock Reconciliation",
+      description: "Accurate stock reconciliation services to streamline inventory processes, reduce losses, and support informed decision-making.",
       content: (
         <>
           <p className="text-gray-600 mb-6">
-            Our business consulting services go beyond traditional accounting to help you optimize your operations, enhance profitability, and achieve sustainable growth. We work closely with you to understand your business challenges and develop customized solutions.
+          Our stock reconciliation services go beyond basic inventory checks. We help you identify discrepancies, ensure data accuracy, and improve inventory control for better business performance.
           </p>
           <h4 className="text-xl font-semibold mb-3 text-accounting-800">What We Offer:</h4>
           <ul className="space-y-3 mb-6">
             <li className="flex">
               <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Business Structure Optimization:</span> Evaluation and recommendations for legal and tax structure.</span>
+              <span className="text-gray-600"><span className="font-medium">Inventory Count Verification:</span> Confirm physical stock matches records.</span>
             </li>
             <li className="flex">
               <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Process Improvement:</span> Identification of inefficiencies and development of streamlined processes.</span>
+              <span className="text-gray-600"><span className="font-medium">Discrepancy Analysis:</span> Identify and explain inventory mismatches.</span>
             </li>
             <li className="flex">
               <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Growth Strategy Development:</span> Planning for sustainable business expansion.</span>
+              <span className="text-gray-600"><span className="font-medium">Stock Adjustment Reports:</span> Track changes made to inventory levels.</span>
             </li>
             <li className="flex">
               <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Merger & Acquisition Advisory:</span> Guidance through all phases of M&A transactions.</span>
+              <span className="text-gray-600"><span className="font-medium">Inventory Audit Support:</span>  Assist in preparing and validating audit data.</span>
             </li>
-            <li className="flex">
-              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Business Succession Planning:</span> Development of strategies for smooth business transitions.</span>
-            </li>
+            
           </ul>
         </>
       )
@@ -282,64 +279,64 @@ const Services = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accounting-500">
-              <h3 className="text-xl font-bold mb-3 text-accounting-800">Professional Services</h3>
+              <h3 className="text-xl font-bold mb-3 text-accounting-800">Retail and Trade</h3>
               <p className="text-gray-600 mb-4">
-                Specialized solutions for law firms, medical practices, consultancies, and other service-based businesses.
+              Tailored support for retail operations, including inventory tracking, point-of-sale integration, and sales tax compliance.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <svg className="w-4 h-4 mr-2 text-accounting-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm text-gray-600">Partnership Tax Planning</span>
+                  <span className="text-sm text-gray-600">Retail Operations Consulting</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-4 h-4 mr-2 text-accounting-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm text-gray-600">Practice Management Consulting</span>
+                  <span className="text-sm text-gray-600">Sales & Tax Strategy</span>
                 </li>
               </ul>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accounting-500">
-              <h3 className="text-xl font-bold mb-3 text-accounting-800">Technology</h3>
+              <h3 className="text-xl font-bold mb-3 text-accounting-800">Distribution</h3>
               <p className="text-gray-600 mb-4">
-                Financial strategies for startups, SaaS companies, and established technology firms.
+              Streamlined support for logistics, inventory flow, and order fulfillment across supply chains..
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <svg className="w-4 h-4 mr-2 text-accounting-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm text-gray-600">R&D Tax Credit Optimization</span>
+                  <span className="text-sm text-gray-600">Supply Chain Analysis & Optimization</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-4 h-4 mr-2 text-accounting-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm text-gray-600">Equity Compensation Planning</span>
+                  <span className="text-sm text-gray-600">Operational Efficiency Consulting</span>
                 </li>
               </ul>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accounting-500">
-              <h3 className="text-xl font-bold mb-3 text-accounting-800">Real Estate</h3>
+              <h3 className="text-xl font-bold mb-3 text-accounting-800">Hardware</h3>
               <p className="text-gray-600 mb-4">
-                Comprehensive accounting for property management, development, and investment.
+              Tailored support for hardware companies, focusing on inventory management, product sourcing, and customer service.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <svg className="w-4 h-4 mr-2 text-accounting-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm text-gray-600">Cost Segregation Studies</span>
+                  <span className="text-sm text-gray-600">Product Sourcing & Supplier Management</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-4 h-4 mr-2 text-accounting-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm text-gray-600">1031 Exchange Advisory</span>
+                  <span className="text-sm text-gray-600">Operational Efficiency Consulting</span>
                 </li>
               </ul>
             </div>
@@ -365,26 +362,7 @@ const Services = () => {
               </ul>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accounting-500">
-              <h3 className="text-xl font-bold mb-3 text-accounting-800">Healthcare</h3>
-              <p className="text-gray-600 mb-4">
-                Financial solutions for medical practices, healthcare organizations, and service providers.
-              </p>
-              <ul className="space-y-2">
-                <li className="flex items-center">
-                  <svg className="w-4 h-4 mr-2 text-accounting-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-sm text-gray-600">Medical Billing Optimization</span>
-                </li>
-                <li className="flex items-center">
-                  <svg className="w-4 h-4 mr-2 text-accounting-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-sm text-gray-600">Compliance Management</span>
-                </li>
-              </ul>
-            </div>
+            
             
             <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accounting-500">
               <h3 className="text-xl font-bold mb-3 text-accounting-800">Retail & E-commerce</h3>

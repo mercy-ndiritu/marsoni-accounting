@@ -60,10 +60,10 @@ const About = () => {
                 Founded in 2025, Marsoni Accounting began with a simple vision: to transform how businesses approach their finances. Our founder, Esther Kimotho, recognized that many businesses struggled with complex financial systems that provided little insight or strategic value.
               </p>
               <p className="text-gray-600 mb-4">
-                Starting with just three dedicated professionals, we built a reputation for combining technical excellence with personalized service. Today, Marsoni Accounting has grown into a team of over 30 finance professionals serving hundreds of clients across various industries.
+                 Marsoni Accounting's focus is on providing businesses with clear, actionable financial insights that drive better decision-making and foster sustainable growth.
               </p>
               <p className="text-gray-600">
-                Despite our growth, we maintain our founding principle: delivering financial clarity that empowers our clients to make confident business decisions and achieve sustainable growth.
+              We are dedicated to offering personalized financial solutions that cater to the unique needs of each client, ensuring that they can confidently navigate their financial landscapes and thrive..
               </p>
             </div>
             <div className="relative">

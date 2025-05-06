@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Calculator, FileText, TrendingUp, CheckCircle, Landmark } from 'lucide-react';
+import { Calculator, FileText, TrendingUp, CheckCircle, Landmark, FolderCode } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const ServicesSection = () => {
@@ -28,7 +28,7 @@ const ServicesSection = () => {
     },
     {
       id: 'business-software-solutions',
-      icon: <FileText size={32} className="text-accounting-600" />,
+      icon: <FolderCode size={32} className="text-accounting-600" />,
       title: 'Business Software Solutions',
       description: 'Custom software solutions designed to streamline your business operations, improve productivity, and support growth through digital innovation.',
       features: [

@@ -50,11 +50,11 @@ const Footer = () => {
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2">
-              <li><Link to="/services#tax-planning" className="text-gray-300 hover:text-accounting-400">Tax Planning & Preparation</Link></li>
               <li><Link to="/services#bookkeeping" className="text-gray-300 hover:text-accounting-400">Bookkeeping Services</Link></li>
+              <li><Link to="/services#records-reconciliation" className="text-gray-300 hover:text-accounting-400">Records Reconciliation</Link></li>
               <li><Link to="/services#financial-advisory" className="text-gray-300 hover:text-accounting-400">Financial Advisory</Link></li>
-              <li><Link to="/services#audit" className="text-gray-300 hover:text-accounting-400">Audit & Assurance</Link></li>
-              <li><Link to="/services#business" className="text-gray-300 hover:text-accounting-400">Business Consulting</Link></li>
+              <li><Link to="/services#business-software-solutions" className="text-gray-300 hover:text-accounting-400">Business Software Solutions</Link></li>
+              <li><Link to="/services#stock-reconciliation" className="text-gray-300 hover:text-accounting-400">Stock Reconciliation</Link></li>
             </ul>
           </div>
           
