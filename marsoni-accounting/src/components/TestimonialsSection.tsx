@@ -8,35 +8,35 @@ const TestimonialsSection = () => {
       id: 1,
       name: 'Sarah Johnson',
       position: 'CEO, InnovateRetail',
-      content: 'FiscalFlow transformed our financial management. Their strategic tax planning saved us thousands while their proactive advice helped us make informed business decisions. They truly care about our success.',
+      content: 'Marsoni Accounting transformed our financial management. Their strategic tax planning saved us thousands while their proactive advice helped us make informed business decisions. They truly care about our success.',
       rating: 5
     },
     {
       id: 2,
       name: 'Michael Brown',
       position: 'Founder, TechStart Solutions',
-      content: 'As a tech startup, we needed financial guidance that could grow with us. The team at FiscalFlow has been with us every step of the way, from initial bookkeeping to complex financial strategy as we scaled.',
+      content: 'As a tech startup, we needed financial guidance that could grow with us. The team at Marsoni Accounting has been with us every step of the way, from initial bookkeeping to complex financial strategy as we scaled.',
       rating: 5
     },
     {
       id: 3,
       name: 'Emily Williams',
       position: 'Operations Director, HealthPro Services',
-      content: 'The expertise and personal attention we receive from FiscalFlow is unmatched. They handle our complex healthcare accounting needs with precision and always make us feel like their top priority.',
+      content: 'The expertise and personal attention we receive from Marsoni Accounting is unmatched. They handle our complex healthcare accounting needs with precision and always make us feel like their top priority.',
       rating: 5
     },
     {
       id: 4,
       name: 'David Chen',
       position: 'CFO, GreenBuild Construction',
-      content: 'Working with FiscalFlow has been a game-changer for our construction business. Their industry-specific knowledge and attention to detail have improved our financial processes and profitability.',
+      content: 'Working with Marsoni Accounting has been a game-changer for our construction business. Their industry-specific knowledge and attention to detail have improved our financial processes and profitability.',
       rating: 5
     },
     {
       id: 5,
       name: 'Amanda Rodriguez',
       position: 'Owner, Artisan Cafe Chain',
-      content: 'Managing multiple locations became so much easier with FiscalFlow. Their bookkeeping services are efficient and accurate, and their financial insights have helped us expand smartly.',
+      content: 'Managing multiple locations became so much easier with Marsoni Accounting. Their bookkeeping services are efficient and accurate, and their financial insights have helped us expand smartly.',
       rating: 4
     }
   ];
@@ -63,7 +63,7 @@ const TestimonialsSection = () => {
         <div className="text-center mb-12">
           <h2 className="section-title">What Our Clients Say</h2>
           <p className="section-subtitle">
-            Discover why businesses trust FiscalFlow with their financial management and accounting needs.
+            Discover why businesses trust Marsoni Accounting with their financial management and accounting needs.
           </p>
         </div>
         

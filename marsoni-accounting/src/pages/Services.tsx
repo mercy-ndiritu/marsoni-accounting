@@ -9,42 +9,6 @@ import { CheckCircle, FileText, Calculator, TrendingUp, Landmark, Users } from '
 const Services = () => {
   const detailedServices = [
     {
-      id: "tax-planning",
-      icon: <Calculator size={36} className="text-accounting-600" />,
-      title: "Tax Planning & Preparation",
-      description: "Strategic tax planning and preparation services designed to minimize your tax burden while ensuring compliance with ever-changing tax laws.",
-      content: (
-        <>
-          <p className="text-gray-600 mb-6">
-            Our comprehensive tax services are designed to address your specific needs, whether you're an individual, small business, or large corporation. We combine deep expertise in tax law with a thorough understanding of your financial situation to develop effective tax strategies.
-          </p>
-          <h4 className="text-xl font-semibold mb-3 text-accounting-800">What We Offer:</h4>
-          <ul className="space-y-3 mb-6">
-            <li className="flex">
-              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Strategic Tax Planning:</span> Proactive strategies to legitimately minimize your tax burden.</span>
-            </li>
-            <li className="flex">
-              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Individual & Business Returns:</span> Expert preparation of tax returns for all entity types.</span>
-            </li>
-            <li className="flex">
-              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">Tax Credit Identification:</span> Finding applicable tax credits to reduce your tax liability.</span>
-            </li>
-            <li className="flex">
-              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">IRS Representation:</span> Expert representation in case of audits or tax issues.</span>
-            </li>
-            <li className="flex">
-              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
-              <span className="text-gray-600"><span className="font-medium">International Tax Planning:</span> Navigation of complex international tax regulations.</span>
-            </li>
-          </ul>
-        </>
-      )
-    },
-    {
       id: "bookkeeping",
       icon: <FileText size={36} className="text-accounting-600" />,
       title: "Bookkeeping Services",
@@ -75,6 +39,42 @@ const Services = () => {
             <li className="flex">
               <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
               <span className="text-gray-600"><span className="font-medium">Software Integration:</span> Setup and management of accounting software customized to your business.</span>
+            </li>
+          </ul>
+        </>
+      )
+    },
+    {
+      id: "records-reconciliation",
+      icon: <Calculator size={36} className="text-accounting-600" />,
+      title: "Records Reconciliation",
+      description: "Thorough reconciliation services to ensure accuracy and consistency in your financial records.",
+      content: (
+        <>
+          <p className="text-gray-600 mb-6">
+            Our comprehensive records reconciliation are designed to address your specific needs, whether you're an individual, small business, or large corporation. We combine deep expertise in tax law with a thorough understanding of your financial situation to develop effective tax strategies.
+          </p>
+          <h4 className="text-xl font-semibold mb-3 text-accounting-800">What We Offer:</h4>
+          <ul className="space-y-3 mb-6">
+            <li className="flex">
+              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
+              <span className="text-gray-600"><span className="font-medium">Bank and Credit Card Reconciliation:</span> Align statements with internal records to ensure accuracy.</span>
+            </li>
+            <li className="flex">
+              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
+              <span className="text-gray-600"><span className="font-medium">Ledger Review & Balancing:</span> Check and balance general ledger accounts.</span>
+            </li>
+            <li className="flex">
+              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
+              <span className="text-gray-600"><span className="font-medium">Discrepancy Resolution:</span> Identify and fix mismatches in financial data.</span>
+            </li>
+            <li className="flex">
+              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
+              <span className="text-gray-600"><span className="font-medium">Reconciliation Reports:</span> Provide clear monthly or quarterly summaries.</span>
+            </li>
+            <li className="flex">
+              <CheckCircle size={20} className="text-accounting-500 mr-2 flex-shrink-0 mt-0.5" />
+              <span className="text-gray-600"><span className="font-medium">System Integration:</span> Work with platforms like QuickBooks, Busy, or TallyPrime.</span>
             </li>
           </ul>
         </>
@@ -212,7 +212,7 @@ const Services = () => {
             <div>
               <h2 className="text-3xl font-bold mb-4 text-accounting-dark">Our Approach</h2>
               <p className="text-gray-600 mb-4">
-                At FiscalFlow, we believe financial services should be more than transactions – they should be transformative for your business. We take a holistic approach that considers your complete financial picture and unique business context.
+                At Marsoni Accounting, we believe financial services should be more than transactions – they should be transformative for your business. We take a holistic approach that considers your complete financial picture and unique business context.
               </p>
               <p className="text-gray-600 mb-4">
                 Rather than one-size-fits-all solutions, we develop customized strategies tailored to your specific needs and goals. Our team combines deep technical expertise with industry knowledge to deliver practical, effective financial solutions.

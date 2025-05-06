@@ -6,7 +6,7 @@ import { ArrowRight, Calculator } from 'lucide-react';
 const HeroSection = () => {
   return (
     <section className="relative bg-gradient-to-br from-accounting-100 to-white pt-32 pb-20">
-      <div className="container-section">
+      <div className="container-section pt-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-accounting-dark leading-tight">

@@ -43,7 +43,7 @@ const About = () => {
         <div className="bg-gradient-to-r from-accounting-700 to-accounting-800 text-white py-16">
           <div className="container-section">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">About FiscalFlow</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">About Marsoni Accounting</h1>
               <p className="text-xl text-accounting-100">
                 Our mission is to provide exceptional financial services that help businesses achieve clarity, compliance, and growth.
               </p>
@@ -57,10 +57,10 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold mb-4 text-accounting-dark">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Founded in 2010, FiscalFlow began with a simple vision: to transform how businesses approach their finances. Our founder, Jennifer Martinez, recognized that many businesses struggled with complex financial systems that provided little insight or strategic value.
+                Founded in 2025, Marsoni Accounting began with a simple vision: to transform how businesses approach their finances. Our founder, Esther Kimotho, recognized that many businesses struggled with complex financial systems that provided little insight or strategic value.
               </p>
               <p className="text-gray-600 mb-4">
-                Starting with just three dedicated professionals, we built a reputation for combining technical excellence with personalized service. Today, FiscalFlow has grown into a team of over 30 finance professionals serving hundreds of clients across various industries.
+                Starting with just three dedicated professionals, we built a reputation for combining technical excellence with personalized service. Today, Marsoni Accounting has grown into a team of over 30 finance professionals serving hundreds of clients across various industries.
               </p>
               <p className="text-gray-600">
                 Despite our growth, we maintain our founding principle: delivering financial clarity that empowers our clients to make confident business decisions and achieve sustainable growth.
@@ -70,7 +70,7 @@ const About = () => {
               <div className="absolute -z-10 top-0 -left-4 w-72 h-72 bg-accounting-300 rounded-full opacity-20 blur-xl"></div>
               <img 
                 src="https://source.unsplash.com/random/600x400/?office,meeting" 
-                alt="FiscalFlow team meeting" 
+                alt="Founder" 
                 className="rounded-lg shadow-xl"
               />
             </div>
